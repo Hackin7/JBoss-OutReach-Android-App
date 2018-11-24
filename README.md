@@ -3,4 +3,6 @@ For the Google Code-In Task: https://codein.withgoogle.com/tasks/494347060825292
 
 Video Demo: https://youtu.be/bjvxQAO6tyE
 
-Not many external libraries used. A RecyclerView was used to show the data
+Not many external libraries used. A RecyclerView was used to show the data. The jva.net.URL, java.net.HttpURLConnection (and more Java) libraries were used to retrieve data from https://api.github.com/users/JBossOutreach/repos and https://api.github.com/repos/JBossOutreach/lead-management-android/contributors etc.
+
+Take note not to refresh the app too many times, as there is an API rate limit
